@@ -1,0 +1,124 @@
+html, body { height: 100%; }
+
+  .circle { 
+    margin-top:2%;
+    margin-left:45%;
+    width: 120px;
+    height: 120px;
+    background: darkolivegreen; 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+ }
+ .fa {
+    color:black;
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+  }
+
+  .homeImage {
+    float:left;
+    width:700px;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right:5%;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
+  }
+
+  .homeSlogan {
+    font-family: 'Permanent Marker', cursive;
+    padding:7%; 
+    margin-left:10%;
+  }
+
+  .first {
+    height: 32rem;
+    background-image: url("./images/BoardOrigina.jpg");
+    background-size:87rem auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    position:relative
+  }
+
+  .second {
+    height: 32rem;
+    background-image: url("./images/wineHolderCropped.png");
+    background-size:87rem auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    position:relative
+  }
+
+  .third {
+    height: 32rem;
+    background-image: url("./images/marbleBoardCropped.png");
+    background-size:87rem auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:white;
+    position:relative
+  }
+
+  .carousel-item {
+    height: 32rem;
+    color:white;
+    position:relative
+  }
+
+  .container {    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+  }
+
+  #myCarousel{
+    width:100%;
+    margin: 3px;
+  }
+
+  .nextButton{
+  filter:invert(100%);
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+  filter:invert(100%)
+  }
+
+  .GoToPortfolio {
+  background-color: #182747;
+  border-color: #182747;
+  }
+
+  h1 {
+    color:whitesmoke;
+    size: 20px;
+  }
+
+  .subText {
+    color:white;
+    font-size: 20px;
+  }
+
+  /*About Page*/
+  .aboutContent {
+    padding: 3%;
+  } 
+
+  .aboutTitle{
+    color:#182747;
+    font-size: 50px;
+  }
+
+  /*Portfolio*/
