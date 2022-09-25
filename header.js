@@ -15,12 +15,12 @@ connectedCallback(){
     
     <!--NavBar-->
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkolivegreen;margin-bottom: 0;">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#829460;margin-bottom: 0;">
             <div class="container">
               <a class="navbar-brand" href="./index.html">Home</a>
               <a class="navbar-brand" href="./about.html">About</a>
               <a class="navbar-brand" href="./portfolio.html">Portfolio</a>
-              <a class="navbar-brand" href="#">Contact</a>
+              <a class="navbar-brand" href="./contact.html">Contact</a>
             </div>
           </nav>
         </div>    

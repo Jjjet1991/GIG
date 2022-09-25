@@ -5,7 +5,7 @@ html, body { height: 100%; }
     margin-left:45%;
     width: 120px;
     height: 120px;
-    background: darkolivegreen; 
+    background: #829460; 
     -moz-border-radius: 70px; 
     -webkit-border-radius: 70px; 
     border-radius: 70px;
@@ -38,8 +38,7 @@ html, body { height: 100%; }
     margin-left:10%;
   }
 
-  .first {
-    height: 32rem;
+  .first {   
     background-image: url("./images/BoardOrigina.jpg");
     background-size:87rem auto;
     background-repeat: no-repeat;
@@ -49,7 +48,6 @@ html, body { height: 100%; }
   }
 
   .second {
-    height: 32rem;
     background-image: url("./images/wineHolderCropped.png");
     background-size:87rem auto;
     background-repeat: no-repeat;
@@ -58,8 +56,7 @@ html, body { height: 100%; }
     position:relative
   }
 
-  .third {
-    height: 32rem;
+  .third {    
     background-image: url("./images/marbleBoardCropped.png");
     background-size:87rem auto;
     background-repeat: no-repeat;
@@ -69,9 +66,9 @@ html, body { height: 100%; }
   }
 
   .carousel-item {
-    height: 32rem;
-    color:white;
-    position:relative
+    height: 40rem;
+    color:#829460;
+    position:relative;
   }
 
   .container {    
@@ -122,3 +119,44 @@ html, body { height: 100%; }
   }
 
   /*Portfolio*/
+  /*Contact*/
+
+  .contactImage {
+    float:right;
+    width:700px;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right:5%;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
+  }
+
+  .contactTitle {
+    text-align: center;
+    color: #182747;
+    margin-top: 2%;
+  }
+
+  .contactText {
+    font-size: 27px;
+    color:#182747;
+    padding: 1%;
+  }
+  
+  .contactTextName{
+    padding: 3% 0 3% 0;
+    font-size: 35px;
+  }
+
+  .card{
+    margin: 2%;
+    padding: 3%;
+    border:none;
+  }
+
+  .card-title{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
