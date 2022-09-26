@@ -96,6 +96,9 @@ html, body { height: 100%; }
   .GoToPortfolio {
   background-color: #182747;
   border-color: #182747;
+  font-family: 'Rubik', sans-serif;
+  margin: 1%;
+  box-shadow:1px .5px .5px whitesmoke ;
   }
 
   h1 {
@@ -106,16 +109,19 @@ html, body { height: 100%; }
   .subText {
     color:white;
     font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+
   }
 
   /*About Page*/
   .aboutContent {
-    padding: 3%;
+    padding: 3%;    
   } 
 
   .aboutTitle{
     color:#182747;
     font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
   }
 
   /*Portfolio*/
@@ -141,11 +147,13 @@ html, body { height: 100%; }
     font-size: 27px;
     color:#182747;
     padding: 1%;
+    font-family: 'Permanent Marker', cursive;
   }
   
   .contactTextName{
     padding: 3% 0 3% 0;
     font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
   }
 
   .card{
@@ -158,5 +166,11 @@ html, body { height: 100%; }
     font-size: 40px;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+    
+  }
+
+  h1 {
+    font-family: 'Rubik Dirt', cursive;
   }
 
