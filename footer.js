@@ -11,6 +11,7 @@ connectedCallback(){
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-instagram"></a>
         <a href="#" class="fa fa-pinterest"></a>
+        <a href="https://www.etsy.com/shop/GIGWoodcraft?ref=shop_sugg" class="fa fa-etsy"></a>
     </div>
 </div>`
  }

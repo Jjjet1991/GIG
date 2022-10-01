@@ -1,62 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <script src="./header.js"></script>
-        <script src="./footer.js"></script>
-        
         <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Caveat&family=Permanent+Marker&family=Rubik+Dirt&family=Rubik:ital@1&display=swap" rel="stylesheet">        
-
          <!-- Bootstrap CSS -->
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!--Icon Library-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>GIG WoodWorking</title>
+
+        <title>GIG Wood Craft</title>
         <meta name="Guy In Garage Wood Craft" content="WoodWorking">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Favicon-->
         <link rel="icon" href="./images/GIGedited.png">
         <link rel="stylesheet" href="styles.css">
+        <script src="./footer.js"></script>
     </head>
+
+    <header>
+        <!--Logo w/ Navbar-->
+            <div>
+                <img src="./images/GIGedited.png" class="img-fluid logo" alt="" >
+            </div>
+            <hr>
+            <!--NavBar-->
+            <div>
+              <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                      <a class="navbar-brand"  style="font-family: 'Allerta Stencil', sans-serif;" href="./index.html">Home</a>
+                      <a class="navbar-brand"  style="font-family: 'Allerta Stencil', sans-serif;" href="./about.html">About</a>
+                      <a class="navbar-brand"  style="font-family: 'Allerta Stencil', sans-serif;" href="./portfolio.html">Portfolio</a>
+                      <a class="navbar-brand"  style="font-family: 'Allerta Stencil', sans-serif;" href="./contact.html">Contact</a>
+                    </div>
+                  </nav>
+                </div>  
+            <!--End Logo/Navbar-->
+    </header>
+
+    <!--Body-->
     <body>
-        <!--Header Component-->
-        <header-component></header-component>
-    <div style="margin-bottom:7%;">
-        <div>
-            <img src="./images/brett-garwood-asZVvgMGshc-unsplash.jpg" alt="" class="homeImage">
-        </div>
-        <div class="aboutContent">
-            <h1 class="aboutTitle">What is GIG? </h1>
-            <p>
-                Sawdust, AKA man glitter, is therapy. GIG (Guy In a Garage) Woodcraft started out of a love of sawdust therapy.
-                I've been a public servant for 29 years. With public service comes stress and a need of therapy. There is no better
-                therapy than mind numbing hours spent sanding wood until it shines. Most of what I've built has been kept or
-                given to friends and family. It was those recipients who encouraged GIG over a number of years. Now that encouragement
-                brings GIG to you as I work to bring out a retirement gig by doing what I love to give you something you will love. Be
-                involved and let me know your thoughts, your likes and dislikes, your wood and wood combination suggestions. I look forward
-                to hearing from you. 
-            </p>
-            <p>
-                All the products brought to you are handmade woodcrafts from my garage. No big machines stamping out chunks of wood, 
-                that would take all th fun out of it. As with all things handmade, nothing is perfect. Each piece is unique which brings
-                natural beauty and slight imperfections which only adds to the uniqueness of the piece. 
-            </p>
-            <p>
-                Most of what is seen here are attempts at design. Design is my weak area. Different color and wood combinations that
-                I'm trying out may or may not look great to you. Your purchases will help determine what combinations and products
-                work for you. Tell me your thoughts, I look forward to hearing them. 
-            </p>
-        </div>
-    </div>
-    </body>
-
-    <!--Footer Component-->
-     <footer-component></footer-component>
-
-
+        <div> <!--Holds everything-->
+          <!--Image left with intro text-->
+          <div> 
+              <img src="./images/garagePic1.jpg" class="img-fluid leftImage" alt="Responsive image">
+              
+              <div class="homeTextRight">
+                  <h1>Guy In a Garage</h1>
+                  <p class="homeText">
+                      Welcome, I'm Dave, and this is my garage. Inside this garage I have spent countless hours creating unique pieces that bring out the beauty of natural wood.
+                      All the products brought to you are handmade woodcrafts from my garage. No big machines stamping out chunks of wood, 
+                      that would take all th fun out of it. As with all things handmade, nothing is perfect. Each piece is unique which brings
+                      natural beauty and slight imperfections which only adds to the uniqueness of the piece.                 
+                  </p>
+                  <!--Pull Quote-->
+                  <h3 style="text-align: center;" class="homePullQuote">
+                      Sawdust, AKA man glitter, is therapy.
+                  </h3>
+                  <!---->
+                  <p class="homeText">
+                      GIG (Guy In a Garage) Woodcraft started out of a love of sawdust therapy.
+                      I've been a public servant for 29 years. With public service comes stress and a need of therapy. There is no better
+                      therapy than mind numbing hours spent sanding wood until it shines. Most of what I've built has been kept or
+                      given to friends and family. It was those recipients who encouraged GIG over a number of years. Now that encouragement
+                      brings GIG to you as I work to bring out a retirement gig by doing what I love to give you something you will love. Be
+                      involved and let me know your thoughts, your likes and dislikes, your wood and wood combination suggestions. I look forward
+                      to hearing from you.      
+                      <button type="button" class="btn btn-lg homeButton">Portfolio</button>               
+                  </p>              
+              </div>
+          </div>
+  </body>
+<!--Footer-->
+  <footer>
+    <footer-component></footer-component>
+  </footer>
 </html>
-
-        
