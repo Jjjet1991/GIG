@@ -1,8 +1,8 @@
 html, body { height:100%; }
 
-@media only screen and (max-width: 768px) {
-  #catalogueCarousel {
-    width: 100% !important;
+@media (max-width:768px){
+  .myCarousels {
+      width: 50%;
   }
 }
 
@@ -242,15 +242,14 @@ html, body { height:100%; }
 }
 
 .purchaseButton {
-  width: 40%;
-  margin-left:30%;
+  width: auto;
+  margin-left:45%;
   height: 75px;
   margin-bottom: 5%; margin-top:1.5%;
   background-color: #829460;
   color: black;
-  font-family:'Rubik', sans-serif;
-  font-size: 35px;
-  padding: 5px;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
   border-color:black;
   box-shadow: 5px 5px 5px gray;
 }
