@@ -1,5 +1,11 @@
 html, body { height:100%; }
 
+@media only screen and (max-width: 768px) {
+  #catalogueCarousel {
+    width: 100% !important;
+  }
+}
+
 .logo {
     width:23%;
     height:auto;
@@ -134,7 +140,7 @@ html, body { height:100%; }
 }
 
 .homeTextRight {
-    margin: 3%;
+    margin-left: 3%;
     padding: 1%;
     font-size: 20px;
     margin-bottom: 5%;
@@ -242,9 +248,45 @@ html, body { height:100%; }
   margin-bottom: 5%; margin-top:1.5%;
   background-color: #829460;
   color: black;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family:;
   font-size: 35px;
   padding: 5px;
   border-color:black;
   box-shadow: 5px 5px 5px gray;
 }
+
+/*Contact Page*/
+.rightImage {
+  width: 30%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-right: 2%;
+  float:right;
+  border-radius: 50px;
+  margin-bottom: 10%;
+}
+
+.contactCard {
+  width: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+}
+
+/*-----------*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.contactList {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------*/
